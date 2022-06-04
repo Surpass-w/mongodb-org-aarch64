@@ -51,4 +51,3 @@ go env -w GO111MODULE=off
 ```shell
 rpmbuild  -ba --target=aarch64  -D"dynamic_version r3.4.21" -D "dynamic_release r3.4.21"  -D "_arch aarch64" SPECS/mongodb-org.spec
 ```
-
